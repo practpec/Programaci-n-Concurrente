@@ -142,8 +142,6 @@ hilo_2:
 
 En este ejemplo, `esperar()` disminuye el valor del semáforo, y `señalizar()` lo incrementa, permitiendo que un hilo pase a la siguiente operación solo si el semáforo lo permite.
 
-Aquí tienes el contenido en Markdown con una sección adicional sobre los problemas comunes en programación concurrente, como *deadlock*, *race conditions* y *livelock*:
-
 ## Problemas Comunes en Programación Concurrente
 
 La programación concurrente, aunque poderosa y eficiente, trae consigo una serie de problemas que deben ser manejados adecuadamente para evitar errores y garantizar la correcta ejecución de los programas. Entre los problemas más comunes se encuentran el **deadlock**, el **livelock** y las **condiciones de carrera**. A continuación, exploramos cada uno de estos problemas.
